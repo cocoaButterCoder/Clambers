@@ -31,14 +31,14 @@ public class MainActivity extends AppCompatActivity {
         }
 
         Random rng = new Random();
-        String scrambled_string = "";
+        String scrambledString = "";
 
         while (letters.size() > 0){
             int position = rng.nextInt(letters.size());
-            scrambled_string += letters.get(position);
+            scrambledString += letters.get(position);
             letters.remove(position);
         }
 
-        textView.setText(scrambled_string);
+        textView.setText(scrambledString);
     }
 }
