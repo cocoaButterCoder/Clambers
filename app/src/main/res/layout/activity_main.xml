@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#90CAF9"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:id="@+id/relativeLayout">
 
     <TextView
         android:layout_width="wrap_content"
@@ -16,7 +17,8 @@
         android:textAllCaps="true"
         android:textColor="#ffee58"
         android:textSize="48sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        />
 
     <EditText
         android:id="@+id/input"
